@@ -14,4 +14,4 @@ class ShixiItem(scrapy.Item):
     title = scrapy.Field()  # 文章名
     time = scrapy.Field()  # 发帖时间
     author = scrapy.Field()  # 发帖人
-    description= scrapy.Field()  # 评论人数
+    description= scrapy.Field()  # 内容描述
